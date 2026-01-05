@@ -105,7 +105,7 @@ npm run lint
 
 ## 🔗 Live Demo
 
-Check out the live application here: <a href="https://products-cart-checkout.vercel.app/" target="_blank">Products Cart Checkout</a>
+Check out the live application here: [Products Cart Checkout ↗](https://products-cart-checkout.vercel.app/)
 
 ## 📜 License
 

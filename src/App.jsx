@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import Cart from "./components/cart/Cart";
 import Products from "./components/products/Products";
@@ -12,6 +13,14 @@ function App() {
     decreaseByOne,
     total,
   } = useLocalStorage("cart");
+
+  useEffect(() => {
+    if (total === 0) {
+      document.title = "Products Cart";
+    } else {
+      document.title = `Total: ${total}`;
+    }
+  }, [total]);
   return (
     <div className="p-16">
       <h1 className="mb-8 font-bold text-4xl">Shopping Cart</h1>

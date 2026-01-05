@@ -47,6 +47,7 @@ src/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 
@@ -104,7 +105,7 @@ npm run lint
 
 ## 🔗 Live Demo
 
-Check out the live application here: [Products Cart Checkout](https://products-cart-checkout-oggrndf6v-mizomicos-projects.vercel.app/)
+Check out the live application here: [Products Cart Checkout](https://products-cart-checkout.vercel.app/)
 
 ## 📜 License
 
